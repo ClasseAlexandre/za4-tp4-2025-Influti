@@ -1,0 +1,121 @@
+/* Partie 1 */ 
+
+body {          /* Questions 1 et 2 */
+    background-color: #AAB7B8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texte {       /* Question 3 */     
+    color:#2E4053;
+}
+
+h1, h2 {           /* Question 4 */
+    display: inline-block;
+    text-align: center;
+}
+.center {   /* Centrer les titres placer dans des blocs div */
+    text-align: center;
+}
+
+.icones {
+    display: block;
+    margin: auto;
+}
+
+body {    /* Question 5 */
+    padding: 0;
+    margin: 0;
+}
+
+.bloc-principal { /* Question 6 */
+    width: 80%;
+    margin: auto;
+}
+
+/* Partie 2 */
+
+#boutique {          /* Question 1 */
+    color: #16A085;
+    border-bottom: 2px solid lightseagreen;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#boutique:hover {    /* Question 2 */
+    color: darkcyan;
+}
+
+.rounded-image {  /* Question 3 */
+    border-radius: 15px;
+}
+
+.titre2 {         /* Question 4 */
+    color: #16A085;
+    border-bottom: 2px solid lightseagreen;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+p {               /* Question 5 */
+    text-align: justify;
+}
+
+#liste {          /* Question 6 */
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.element-liste {  /* Question 7 */
+    background-color: #9ca2a3;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#liens {        /* Questions 8 et 9 */
+    text-align: left;
+    color: #2E4053;
+    text-decoration: none;
+}
+
+#liens:hover {  /* Question 10 */
+    background-color: #9ca2a3;
+}
+
+/* Partie 3 */
+
+.table {            /* Questions 1 et 2 */
+    width: 320px;
+    margin: auto; 
+}
+
+caption {           /* Question 3 */
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.colonne4 {        /* Question 4 */
+    padding: 10px;
+}
+
+button {            /* Questions 5 à 8*/
+    background-color: #1ABC9C;
+    color: #2E4053;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 12px;
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+button:hover {      /* Question 9 */
+    background-color: #16A085;
+}
